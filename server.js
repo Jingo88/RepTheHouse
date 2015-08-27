@@ -70,7 +70,7 @@ app.get('/searchState/:stateInitials', function(req, res){
 	})
 });
 
-app.listen(80);
+app.listen(5000);
 console.log("We are connected to port 3000, You have to change this when hosting on DO to port 80!!!");
 
 
